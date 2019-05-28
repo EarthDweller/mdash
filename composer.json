@@ -1,0 +1,34 @@
+{
+    "name": "earthdweller/mdash",
+    "description": "PHP версия типографа Муравьева «emuravjev/mdash»",
+    "type": "library",
+    "keywords": ["типограф", "Муравьев", "typograph", "russian", "русский"],
+    "license": "Public Domain",
+    "authors": [
+        {
+            "name": "Vitaly Baev",
+            "email": "dj@vitalybaev.ru"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Emuravjev\\Mdash\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/TestCase.php"
+        ]
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8 || ^5.7"
+    },
+    "repositories": [
+        {
+            "packagist": false
+        }
+    ]
+}
