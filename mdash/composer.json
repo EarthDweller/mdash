@@ -1,6 +1,6 @@
 {
-    "name": "emuravjev/mdash",
-    "description": "PHP версия типографа Муравьева",
+    "name": "earthdweller/mdash",
+    "description": "PHP версия типографа Муравьева «emuravjev/mdash»",
     "keywords": ["типограф", "Муравьев", "typograph", "russian", "русский"],
     "license": "Public Domain",
     "authors": [
@@ -9,7 +9,9 @@
             "email": "dj@vitalybaev.ru"
         }
     ],
-    "require": {},
+    "require": {
+        "php": ">=7.1"
+    },
     "autoload": {
         "psr-4": {
             "Emuravjev\\Mdash\\": "src/"
